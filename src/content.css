@@ -1,0 +1,39 @@
+html.sc-kill-aio div[data-attrid="AIO"],
+html.sc-kill-aio div[data-async-context*="aio"],
+html.sc-kill-aio div[data-async-context*="ai_overview"],
+html.sc-kill-aio div[data-async-context^="ai_o"],
+html.sc-kill-aio div[data-async-type^="ai_o"],
+html.sc-kill-aio div[data-async-type*="ai_overview"],
+html.sc-kill-aio div[jsname="UCYmEd"],
+html.sc-kill-aio div[jsname="cAFhGd"],
+html.sc-kill-aio div[jscontroller="hYIE3"],
+html.sc-kill-aio div[jscontroller="JMOwte"],
+html.sc-kill-aio div[jscontroller="MAccHc"],
+html.sc-kill-aio div[jscontroller="iDPoPb"],
+html.sc-kill-aio div[jscontroller="OnlBO"],
+html.sc-kill-aio div[jscontroller="K9p0Pe"],
+html.sc-kill-aio c-wiz[data-page-cfg*="aiOverview"],
+html.sc-kill-aio c-wiz[data-async-context^="ai_o"],
+html.sc-kill-aio div[data-subtree="aio"],
+html.sc-kill-aio div[data-mcareid],
+html.sc-kill-aio div[aria-label="AI Overview"],
+html.sc-kill-aio div[aria-label="AI overview"],
+html.sc-kill-aio div[aria-label="KI-Übersicht"],
+html.sc-kill-aio div[aria-label="Aperçu IA"],
+html.sc-kill-aio div[aria-label="Vista general de IA"],
+html.sc-kill-aio div[aria-label="Panoramica IA"] {
+  display: none !important;
+}
+
+html.sc-kill-aitab a.nPDzT[href*="udm=50"],
+html.sc-kill-aitab a[href*="udm=50"],
+html.sc-kill-aitab div[role="listitem"]:has(a[href*="udm=50"]) {
+  display: none !important;
+}
+
+/* the floating "Tab to AI Mode" hint near search box */
+html.sc-kill-aitab div[aria-label*="AI Mode" i],
+html.sc-kill-aitab span[aria-label*="AI Mode" i],
+html.sc-kill-aitab div[data-ved][role="button"][aria-label*="AI" i] {
+  display: none !important;
+}

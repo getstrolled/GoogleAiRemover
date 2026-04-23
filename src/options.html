@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>GoogleAiRemover — Settings</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main>
+      <h1>GoogleAiRemover</h1>
+      <p class="lede">Two ways to deal with Google's AI overview. Pick one.</p>
+
+      <section class="modes">
+        <label class="mode-card" data-mode="safe">
+          <input type="radio" name="mode" value="safe" />
+          <div class="mode-card-body">
+            <h2>Safe mode</h2>
+            <p>Adds <code>-ai</code> to every search. Google quietly hides the AI overview when it sees a negative term. Nothing else on the page changes. If you want results that include the word "ai", flip to destroy mode for that search.</p>
+          </div>
+        </label>
+
+        <label class="mode-card" data-mode="destroy">
+          <input type="radio" name="mode" value="destroy" />
+          <div class="mode-card-body">
+            <h2>Full destruction mode</h2>
+            <p>Leaves your query alone and rips the AI overview out of the page after it loads. You might see it flicker for a split second on slow connections. Doesn't pollute your search terms.</p>
+          </div>
+        </label>
+      </section>
+
+      <h2 class="section-title">Other stuff</h2>
+      <ul class="toggles">
+        <li>
+          <label>
+            <input type="checkbox" id="killAiTab" />
+            <span>Hide the "AI Mode" tab in the search filters</span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" id="killAiHotkey" />
+            <span>Block the Tab-to-AI-Mode keyboard shortcut</span>
+          </label>
+        </li>
+      </ul>
+
+      <p class="saved" id="saved" hidden>saved</p>
+
+      <footer>
+        <a href="https://github.com/getstrolled/GoogleAiRemover" target="_blank" rel="noreferrer">github</a>
+        <span class="dot">•</span>
+        <span>v0.1.0</span>
+      </footer>
+    </main>
+
+    <script src="options.js"></script>
+  </body>
+</html>
