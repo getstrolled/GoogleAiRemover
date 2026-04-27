@@ -36,7 +36,7 @@ Switch between them in Settings.
 ## Install
 
 - **Chrome Web Store** — not approved yet
-- **Firefox Add-ons** — not approved yet
+- **Firefox Add-ons** — https://addons.mozilla.org/en-US/firefox/addon/googleairemover/
 
 ## Permissions
 
